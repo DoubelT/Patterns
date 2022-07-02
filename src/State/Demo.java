@@ -14,6 +14,9 @@ public class Demo {
 
         pkg.nextState();
         pkg.printStatus();
+
+        pkg.previousState();
+        pkg.printStatus();
     }
 
 }

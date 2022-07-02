@@ -9,23 +9,21 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class DemoClassTest {
-
+    private DemoClass demoClass;
     @Before
-    public void before(){
-        DemoClass demoClass = new DemoClass(5);
+    public  void before(){
+         this.demoClass = new DemoClass(5);
     }
 
 
 
     @Test
     public void testUnset(){
-        DemoClass demoClass = new DemoClass(5);
         assertFalse(demoClass.isUsed());
     }
 
     @Test
     public void testSet(){
-        DemoClass demoClass = new DemoClass(5);
         demoClass.setHolds(0);
         assertEquals(demoClass.toString(), "[0]");
         assertTrue(demoClass.isUsed());
