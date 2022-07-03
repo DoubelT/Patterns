@@ -33,7 +33,7 @@ public class Demo {
 
         }
 
-        if(!loop) System.out.println("Unexpected Input for the Player. Shutting down.");
+        System.out.println("Unexpected Input for the Player. Shutting down.");
 
 
 
