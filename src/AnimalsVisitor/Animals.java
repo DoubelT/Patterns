@@ -1,4 +1,4 @@
-package Animals;
+package AnimalsVisitor;
 
 public interface Animals {
     void accept(AnimalVisitor animalVisitor);

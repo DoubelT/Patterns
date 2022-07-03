@@ -1,4 +1,4 @@
-package Animals;
+package AnimalsVisitor;
 
 public class Dog implements Animals {
 
