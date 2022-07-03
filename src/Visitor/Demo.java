@@ -19,6 +19,8 @@ public class Demo {
         deutsch.accept(klassensprecher);
         mathe.accept(klassensprecher);
 
+        klassensprecher.visit(mathe);
+
 
 
     }
